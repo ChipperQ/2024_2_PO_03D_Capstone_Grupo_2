@@ -1,0 +1,26 @@
+/* LoginComponente.css */
+.animacion-furgon {
+  position: relative; /* Necesario para la animación */
+  margin-top: 20px;
+  overflow: hidden; /* Para evitar que el furgón se muestre fuera de la vista */
+  height: 100px; /* Altura para la animación */
+}
+
+.animacion-furgon img {
+  position: absolute;
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: auto; /* Mantiene la proporción */
+  animation: girar 4s linear infinite; /* Solo la animación de rotación */
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg); /* Comienza sin rotación */
+  }
+  100% {
+    transform: rotate(360deg); /* Rota 360 grados */
+  }
+}
+
+  
+  
