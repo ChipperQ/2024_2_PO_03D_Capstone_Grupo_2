@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Alert } from "react-native";
 import MapView, { Marker, Polyline } from "react-native-maps";
 
 // Clave de la API de Google Maps
-const GOOGLE_MAPS_KEY = "AIzaSyCcW2kV9afF4ldgWXYjvQ7ZN8FEIX7S1S8";
+const GOOGLE_MAPS_KEY = "api google";
 
 export default function App() {
   const [origin, setOrigin] = React.useState(null); // Ubicación actual del usuario
